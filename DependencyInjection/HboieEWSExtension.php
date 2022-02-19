@@ -27,7 +27,7 @@ class HboieEWSExtension extends Extension
 
         $factory_service = $container->getDefinition('ews.factory');
         $factory_service->addMethodCall(
-            'createEWS_API',
+            'createEwsApi',
             array($config)
         );
     }

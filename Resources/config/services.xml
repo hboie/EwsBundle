@@ -15,7 +15,9 @@
                 id="ews.api"
                 class="garethp\ews\API"
                 shared="true">
-            <factory service="ews.factory" method="getEWS_API"/>
+            <factory service="ews.factory" method="getEwsApi"/>
         </service>
+
+        <service id="Hboie\EWSBundle\EwsApi" alias="ews.api" />
     </services>
 </container>
