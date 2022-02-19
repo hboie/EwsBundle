@@ -7,7 +7,7 @@
     <services>
         <service
                 id="ews.factory"
-                class="Hboie\EWSBundle\Factory"
+                class="Hboie\EwsBundle\Factory"
                 shared="false">
         </service>
 
@@ -18,6 +18,6 @@
             <factory service="ews.factory" method="getEwsApi"/>
         </service>
 
-        <service id="Hboie\EWSBundle\EwsApi" alias="ews.api" />
+        <service id="Hboie\EwsBundle\EwsApi" alias="ews.api" />
     </services>
 </container>

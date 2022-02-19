@@ -1,6 +1,6 @@
 <?php
 
-namespace Hboie\EWSBundle;
+namespace Hboie\EwsBundle;
 
 use garethp\ews\API;
 use garethp\ews\API\Enumeration\ExchangeVersionType;
@@ -8,11 +8,11 @@ use garethp\ews\API\Enumeration\ExchangeVersionType;
 class Factory
 {
     /**
-     * @var API $ewsAPI
+     * @var API $ewsApi
      */
-    private $ewsAPI;
+    private $ewsApi;
 
-    public function createEWS_API($config)
+    public function createEwsApi($config)
     {
         $server = $config['server'];
         $username = $config['username'];
@@ -59,8 +59,8 @@ class Factory
     /**
      * @return API
      */
-    public function getEWS_API()
+    public function getEwsApi()
     {
-        return $this->ewsAPI;
+        return $this->ewsApi;
     }
 }

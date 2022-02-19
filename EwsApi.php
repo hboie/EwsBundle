@@ -6,7 +6,7 @@
  * Time: 23:55
  */
 
-namespace Hboie\EWSBundle;
+namespace Hboie\EwsBundle;
 
 use garethp\ews\API;
 

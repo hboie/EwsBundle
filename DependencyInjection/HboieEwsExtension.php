@@ -1,6 +1,6 @@
 <?php
 
-namespace Hboie\EWSBundle\DependencyInjection;
+namespace Hboie\EwsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class HboieEWSExtension extends Extension
+class HboieEwsExtension extends Extension
 {
     /**
      * {@inheritdoc}

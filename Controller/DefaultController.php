@@ -1,6 +1,6 @@
 <?php
 
-namespace Hboie\EWSBundle\Controller;
+namespace Hboie\EwsBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
