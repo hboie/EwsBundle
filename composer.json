@@ -1,0 +1,26 @@
+{
+  "name": "hboie/ews-bundle",
+  "description": "Symfony 2-5 / Symfony Flex Bundle integrating a PHP Exchange Web Services from (garethp/php-ews)",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Hans Boie",
+      "email": "hans.boie@gmx.de"
+    }
+  ],
+  "keywords": ["EWS", "Exchange", "php-ews", "symfony2", "symfony3", "symfony4", "symfony5", "bundle"],
+  "homepage": "https://github.com/hboie/EWSBundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-zip": "*",
+    "symfony/framework-bundle": "~5.0",
+    "symfony/filesystem": ">=2.6",
+    "garethp/php-ews": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hboie\\EWSBundle\\": ""
+    }
+  }
+}
